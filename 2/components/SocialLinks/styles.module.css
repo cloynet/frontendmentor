@@ -1,0 +1,9 @@
+.socialLink {
+    background-color: var(--acolor);
+    transition: background-color 0.3s ease;
+}
+
+.socialLink:hover {
+    background-color: var(--pcolor);
+    color: black;
+}
