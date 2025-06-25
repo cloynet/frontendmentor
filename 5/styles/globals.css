@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: hsl(221, 100%, 96%);
+  --lightroyal: hsl(241, 81%, 54%);
+  --lightslate: hsl(252, 100%, 67%);
+  --violateblue: hsla(256, 72%, 46%, 1);
+  --persianblue: hsla(241, 72%, 46%, 0);
+  --lightred: 255,87,87;
+  --orangeyellow: 255, 176, 31;
+  --greenteal: 38, 198, 174;
+  --cobaltblue: 47, 85, 229;
+  --darkgrey: hsl(224, 30%, 27%);
+}
+
+
+body {
+  background: var(--background);
+  
+}
+
+.btnHover {
+  background: var(--darkgrey);
+  
+}
+
+.btnHover:hover{
+   background: linear-gradient(var(--lightslate), var(--lightroyal));
+}
